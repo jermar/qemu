@@ -6967,6 +6967,9 @@ case "$target_name" in
   lm32)
     target_compiler=$cross_cc_lm32
   ;;
+  ia64)
+    target_compiler=$cross_cc_ia64
+  ;;
   m68k)
     bflt="yes"
     gdb_xml_files="cf-core.xml cf-fp.xml m68k-fp.xml"
